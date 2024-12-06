@@ -1,0 +1,52 @@
+{
+  "kind": "collectionType",
+  "collectionName": "amiibos",
+  "info": {
+    "singularName": "amiibo",
+    "pluralName": "amiibos",
+    "displayName": "amiibo",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "figure_image": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Game": {
+      "type": "enumeration",
+      "enum": [
+        "Super Smash Bros",
+        "Super Mario",
+        "Zelda",
+        "Shovel Knight",
+        "Splatoon",
+        "Wool Yoshi",
+        "Chibi Robo",
+        "Fire Emblem",
+        "Pokemon",
+        "Animal Crossing",
+        "Kirby",
+        "Metroid",
+        "Monster Hunter",
+        "Pikmin"
+      ]
+    },
+    "owned": {
+      "type": "boolean"
+    }
+  }
+}

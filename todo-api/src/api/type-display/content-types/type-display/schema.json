@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "type_displays",
+  "info": {
+    "singularName": "type-display",
+    "pluralName": "type-displays",
+    "displayName": "type_display"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "type": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

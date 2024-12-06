@@ -1,0 +1,70 @@
+{
+  "kind": "collectionType",
+  "collectionName": "skylanders",
+  "info": {
+    "singularName": "skylander",
+    "pluralName": "skylanders",
+    "displayName": "Skylander",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "figure_image": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "game": {
+      "type": "enumeration",
+      "enum": [
+        "Spyros Adventure",
+        "Giants",
+        "Swap Force",
+        "Trap Team",
+        "Magic Item"
+      ]
+    },
+    "element": {
+      "type": "enumeration",
+      "enum": [
+        "Water",
+        "Magic",
+        "Fire",
+        "Undead",
+        "Tech",
+        "Earth",
+        "Air",
+        "Life",
+        "Light",
+        "Dark",
+        "Magic Item"
+      ]
+    },
+    "owned": {
+      "type": "boolean"
+    },
+    "type_image": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}
